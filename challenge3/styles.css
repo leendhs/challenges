@@ -1,0 +1,44 @@
+body {
+  background-color: #EBECE9;
+  color: #60402E;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #takePhotoButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #60402E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .photo-container {
+    margin-bottom: 20px;
+  }
+  
+  #photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #result {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
